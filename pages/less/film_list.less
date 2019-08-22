@@ -1,0 +1,124 @@
+@import "../less/header_common.less";
+body{
+    background-color: #f3f3f3;
+}
+#main{
+    background-color: #fff;
+    width: 1100px;
+    margin: 0 auto;
+    .filmType{ 
+        width: 1075PX;
+        margin: 0 auto;
+        overflow: hidden;
+        li{
+            text-align: center;
+            // width: 66px;
+            height: 28px;
+            line-height: 28px;
+            padding: 8px 21px;
+            background-color: #0b68c8;
+            color: #fff;
+            margin-right: 31px;
+            margin: 20px 31px 30px 0;
+            float: left;
+        }
+    }
+    .ranking{
+        width: 1075PX;
+        margin: 0 auto;
+        height: 40PX;
+        border: 1px solid #dedede;
+        background-color: #f8f8f8;
+        margin-bottom: 30px;
+        div{
+            float: left;
+            width: 128px;
+            line-height: 40px;
+            text-align: center;
+            color: #0b68c8;
+
+        }
+        // background-color: #333;
+    }
+    .mainFilmContent{
+        width: 1075PX;
+        margin: 0 auto;
+        overflow: hidden;
+        li{
+            float: left;
+            &:nth-child(5){
+            margin: 0;
+            }
+            @import url("../less/film_details.less");
+            .movie_details();
+        }
+    }
+}
+#help{
+    width: 1100px;
+    margin: 0 auto;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    ul{
+        overflow: hidden;
+        text-align: center;
+        height: 196px;
+        display: flex;
+        align-items:center;
+        
+        li{
+            width: 273px;
+            height: 99px;
+            border-right: 1px solid #dedede;
+            display: flex;
+            justify-content:center;
+            float: left;
+            div{
+                margin-left: 10px;
+                display: inline-block;
+                &:nth-child(1){
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: url("../img/vip-powers.png") 0 -111px no-repeat;
+                }  
+                h4{
+                    font-size: 17px;
+                    text-align: left;
+                    margin-bottom: 19px; 
+                }
+            }
+            a{
+                display: block;
+            }
+        
+        &:nth-child(2){
+            div:nth-child(1){
+                background: url("../img/vip-powers.png") -50px -111px no-repeat;
+            }
+        }
+        &:nth-child(3){
+            div:nth-child(1){
+                background: url("../img/vip-powers.png") -102px -111px no-repeat;
+            }
+        }
+        &:nth-child(4){
+            border-right: none;
+            div:nth-child(1){
+                background: url("../img/vip-powers.png") -153px -111px no-repeat;
+            }
+        }
+        }
+    }
+}
+
+#footer{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    color: #999999;
+    p{
+        margin-bottom: 14px;
+    }
+}

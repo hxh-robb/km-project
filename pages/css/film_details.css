@@ -1,0 +1,46 @@
+.movie_details {
+  position: relative;
+  width: 205px;
+}
+.movie_details .special {
+  z-index: 2;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  display: inline-block;
+  width: 75px;
+  height: 18px;
+  background: url("../img/vip-tips.png") -110px 0 no-repeat;
+}
+.movie_details .blur {
+  z-index: 2;
+  position: absolute;
+  left: 170px;
+  bottom: 59px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+.movie_details img {
+  width: 205px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.movie_details .movie_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.movie_details .movie_text div p:nth-child(1) {
+  font-size: 14px;
+}
+.movie_details .movie_text div p:nth-child(2) {
+  color: gray;
+}
+.movie_details .movie_text .ranking_point {
+  color: orange;
+}
+.movie_details .movie_text .ranking_point span:nth-child(1) {
+  font-size: 19px;
+}
+/*# sourceMappingURL=film_details.css.map */
