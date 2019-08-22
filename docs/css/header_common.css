@@ -1,0 +1,58 @@
+#header .header_main {
+  border-bottom: 1px solid #c7c4c5;
+  background: linear-gradient(#ffffff 20%, #e6e6e6);
+}
+#header .header_main .header_center {
+  height: 64px;
+  position: relative;
+  margin: 0 auto;
+  line-height: 64px;
+  width: 1100px;
+}
+#header .header_main .header_center .header_logo {
+  width: 191px;
+  height: 29px;
+  background: url("../img/vip-logo.png") 0 -144px no-repeat;
+  float: left;
+  position: absolute;
+  left: 18px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+#header .header_main .header_center .nav {
+  float: right;
+}
+#header .header_main .header_center .nav ul {
+  overflow: hidden;
+}
+#header .header_main .header_center .nav ul li {
+  float: left;
+  margin: 0 29px 0 0;
+}
+#header .header_main .header_center .nav ul li:nth-child(5) {
+  margin: 0 21px 0 0 ;
+}
+#header .user_bar {
+  height: 40px;
+  background-color: #2c3134;
+  width: 1100px;
+  margin: 0 auto;
+}
+#header .user_bar ul {
+  overflow: hidden;
+}
+#header .user_bar ul li {
+  float: left;
+  height: 38px;
+  width: 115px;
+  text-align: center;
+  line-height: 39px;
+  color: #fff;
+  font-size: 14px;
+}
+#header .user_bar ul li:hover {
+  background-color: #0b68c8;
+  cursor: pointer;
+}
+/*# sourceMappingURL=header_common.css.map */

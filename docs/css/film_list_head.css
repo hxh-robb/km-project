@@ -1,0 +1,64 @@
+#recomanded .films_title,
+#hot_film .films_title,
+#vip .films_title {
+  width: 1100px;
+  height: 67px;
+  background-color: #f3f3f3;
+  line-height: 67px;
+  margin: 0 auto;
+}
+#recomanded .films_title .privilege_title,
+#hot_film .films_title .privilege_title,
+#vip .films_title .privilege_title {
+  display: inline-block;
+  width: 100px;
+  height: 24px;
+  background: url("../img/vip-logo.png") 0 0 no-repeat;
+}
+#recomanded .films_title a,
+#hot_film .films_title a,
+#vip .films_title a {
+  float: right;
+  color: #333;
+}
+#recomanded .films_title img,
+#hot_film .films_title img,
+#vip .films_title img {
+  width: 10px;
+  height: 10px;
+  margin-left: 8px;
+}
+#recomanded ul,
+#hot_film ul,
+#vip ul {
+  width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#recomanded ul li,
+#hot_film ul li,
+#vip ul li {
+  float: left;
+  margin: 0 18px 0 0;
+  position: relative;
+}
+#recomanded ul li:nth-child(5n),
+#hot_film ul li:nth-child(5),
+#vip ul li:nth-child(5) {
+  margin: 0;
+}
+#recomanded ul li div:nth-child(1),
+#hot_film ul li div:nth-child(1),
+#vip ul li div:nth-child(1) {
+  width: 205px;
+}
+#recomanded ul li div:nth-child(1) img,
+#hot_film ul li div:nth-child(1) img,
+#vip ul li div:nth-child(1) img {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 205px;
+  z-index: 1;
+}
+/*# sourceMappingURL=film_list_head.css.map */

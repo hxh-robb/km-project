@@ -1,0 +1,187 @@
+#header{
+    height: 89px;
+    width: 962px;
+    margin: 0 auto;
+    line-height: 89px;
+    display: flex;
+    align-items: center;
+    span{
+        display: inline-block;
+        width: 174px;
+        height: 38px;
+        background: url("../img/indexicons.png") 0 -566px no-repeat;
+    
+    }
+}
+#main{
+    height: 545px;
+    background: url("../img/login.jpg") 0 0; 
+    .middle{
+        height: 100%;
+        width: 962px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items:center;
+        .loginBox{
+            position: relative;
+            width: 333px;
+            height: 450px;
+            background-color: #fff;
+            // float: right;
+            display: flex;
+            flex-direction:column;
+            // justify-content:center;
+            align-items:center; 
+            .loginBoxTop{
+                width: 282px;
+                >div{
+                    height: 84px;
+                    display: flex;
+                    align-items:center; 
+                    span:nth-child(2){
+                        color: #1a9eff;
+                    }
+                    .icon{
+                        display: inline-block;
+                        width: 25px;
+                        height: 25px;
+                        background: url("../img/icon.png") 0 0 no-repeat;
+                        background-size: 20px 20px;
+                        vertical-align: baseline;
+                        margin: 6px 2px 0 0;
+                    }
+                }
+                
+                .user, .pw, .sub{
+                    height: 30px;
+                    width: 100%;
+                    margin-bottom: 10px;
+                    &:nth-child(3){
+                        width: 50px;
+                    }
+                }
+                .verify, .txtcode{
+                    // height: 40px;
+                    width: 286px;
+                    margin-bottom: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    height: 30px;
+
+                }
+
+                .remember{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+                    >p{
+                        display: flex;
+                        color: #999999;
+                        align-items:center; 
+                        a{
+                            color: #1a9eff;
+                        }
+
+                        .tick{
+                            width: 14px;
+                            height: 14px;
+                            vertical-align: top;
+                            margin-right: 5px;
+                            
+                        }
+                    }
+                    >span{
+                        a{
+                    color: #1a9eff;
+
+                        }
+                    // color: #1a9eff;
+
+                    }
+                }
+                .sub{
+                    height: 38px;
+                    background-color: #1a9eff;
+                    color: #fff;
+                    font-size: 15px;
+                    border: none;
+                    cursor: pointer;
+                }
+                
+            }
+            .help{
+                width: 100%;
+                p{
+                    float: left;
+                    color: #999999;
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    span:nth-child(1){
+                        display: inline-block;
+                        width: 14px;
+                        height: 14px;
+                        background: url("../img/question(1).png") 0 0 no-repeat;
+                        margin-right: 4px;
+                    }
+                    
+                }
+                a{
+                    float: right;
+                    color: #1a9eff;
+                    // color: #999999;
+                }
+            }
+            .loginBoxBottom{
+                position: absolute;
+                bottom: 0;
+                width: 240px;
+                height: 70px;
+                display: flex;
+                    justify-content: center;
+                    border-top: 1px solid #e1e1e1;
+                    align-items: center;
+
+                span:nth-child(1){
+                    position: absolute;
+                    top: -12px;
+                    background-color: #fff;
+                }
+                span:nth-child(2){
+                    width: 30px;
+                    height: 30px;
+                    background: url("../img/QQ.png");
+                    margin-right: 20px;
+                    cursor: pointer;
+                }
+                span:nth-child(3){
+                    width: 30px;
+                    height: 30px;
+                    background: url("../img/wechat.png");
+                    margin-right: 20px;
+                    cursor: pointer;
+
+                }
+                span:nth-child(4){
+                    width: 30px;
+                    height: 30px;
+                    background: url("../img/weibo.png");
+                    cursor: pointer;
+
+                }
+            }
+        }
+    }
+    .footer{
+        width: 962px;
+            margin: 32px auto;
+        text-align: center;
+        p{
+            color: #a59999;
+            margin-bottom: 10px;
+        }
+    }
+    
+}
